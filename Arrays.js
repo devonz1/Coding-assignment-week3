@@ -155,9 +155,21 @@ avgr(4);
 
 
 
-//Write a function called willBuyDrink that takes a boolean isHotOutside, and a number moneyInPocket, and returns true 
+//Write a function called willBuyDrink that takes a boolean isHotOutside,
+// and a number moneyInPocket, and returns true 
 //if it is hot outside and if moneyInPocket is greater than 10.50.
+isHotOutside = true;
+moneyInPocket = 11;
 
+function willBuyDrink(isHotOutside, moneyInPocket) {
+    if (isHotOutside === true && moneyInPocket > 10.50) {
+        console.log("true")
+    } else
+        console.log("false")
+}
+
+
+willBuyDrink(isHotOutside, moneyInPocket);
 
 
 
