@@ -1,4 +1,4 @@
-# Coding-assignments Arrays and Functions
+#  Arrays and Functions Coding Assignment
 
 <h3> In this assignment I was tasked with <br>
  coming up with solutions 
